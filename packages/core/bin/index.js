@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const argv = require('process').argv
-const version = require('../package.json').version
+const version = require('../../../package.json').version
 // 没有输入命令时, 默认给一个全局帮助命令
 const command = argv[2] || '--help'
 if (command.startsWith('-')) {

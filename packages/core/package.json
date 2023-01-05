@@ -6,6 +6,9 @@
   "homepage": "https://github.com/wanghan-js/sword#readme",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "sword": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -22,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/wanghan-js/sword/issues"
-  }
+  },
+  "gitHead": "f81f41c582f949b92d0c01e45d6106953a398310"
 }
