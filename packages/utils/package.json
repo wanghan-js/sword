@@ -10,6 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib"
   ],
@@ -23,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/wanghan-js/sword/issues"
   },
-  "gitHead": "1e1d553b369be40bf364710b156bb365ea1b11a5"
+  "gitHead": "a6ad1608e974fe9c50c0f0f729db5b16b4e68912"
 }
